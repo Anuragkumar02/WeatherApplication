@@ -1,0 +1,96 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    color: #cb8534
+}
+
+body{
+    background: url(rainy.jpeg) no-repeat center ;
+    
+}
+h1.mainhead {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 5rem;
+    font-family: fantasy;
+    color: gainsboro;
+    margin-top: 3rem;
+    text-shadow: 4px 4px #1541a9;
+}
+#container1{
+    width:25%;
+    height:63vh;
+    margin:auto;
+    margin-top: 10vh;
+    text-align: center;
+    padding:3px;
+    
+}
+
+
+input#searchcity {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 14px;
+    border: none;
+    outline: none;
+    height: 41px;
+    border-radius: 21px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(210 ,222, 232 ,.7);
+    color: #60535c;
+    box-shadow: 3px 3px #413e4e;
+}
+#contentbox {
+    width: 80%;
+    margin: auto;
+    margin-top: 42px;
+    background-color: rgba(210 ,222, 232 ,.9);
+    height: 286px;
+    border-radius: 20px;
+    
+}
+#contentbox1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 42px;
+    background-color: rgba(210 ,222, 232 ,.9);
+    height: 286px;
+    border-radius: 20px;
+    
+}
+p#cityname {
+    font-size: 2rem;
+    font-family: -webkit-body;
+    margin-bottom: 11px;
+}
+p#cityname1 {
+    font-size: 2rem;
+    font-family: -webkit-body;
+    margin-bottom: 11px;
+}
+
+p#dateid {
+    font-size: 1.6rem;
+    font-family: -webkit-body;
+    margin-bottom: 11px;
+}
+p#temp {
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-shadow: 2px 2px black;
+    margin-bottom: 8px;
+}
+p#mintemp {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-bottom: 21px;
+}
+p#type {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
